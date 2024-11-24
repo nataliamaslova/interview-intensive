@@ -21,5 +21,7 @@ public class PrintOddOrEven {
         else {
             System.out.println("Odd");
         }
+
+        scanner.close();
     }
 }

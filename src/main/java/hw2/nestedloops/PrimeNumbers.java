@@ -29,6 +29,8 @@ public class PrimeNumbers {
             if (count == 2) {
                 System.out.print(i + " ");
             }
+
+            scanner.close();
         }
     }
 }

@@ -16,9 +16,11 @@ import java.util.Scanner;
  */
 public class CheckAge {
     public static void main(String[] args) {
-        System.out.print("Введите возраст: ");
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введите возраст: ");
         int a = scanner.nextInt();
+
         if (a < 0) {
             System.out.println("Некорректный возраст");
         }
@@ -34,5 +36,7 @@ public class CheckAge {
         else {
             System.out.println("Пенсионер");
         }
+
+        scanner.close();
     }
 }

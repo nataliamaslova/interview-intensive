@@ -29,6 +29,8 @@ public class ChessBoard {
                 }
             }
             System.out.println(); // переход на новую строку
+
+            scanner.close();
         }
     }
 }

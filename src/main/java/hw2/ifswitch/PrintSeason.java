@@ -31,5 +31,7 @@ public class PrintSeason {
                 System.out.println("Осень");
                 break;
         }
+
+        scanner.close();
     }
 }

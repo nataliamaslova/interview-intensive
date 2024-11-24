@@ -22,5 +22,7 @@ public class PrintEvenNumbers {
                 System.out.printf("%d ", i);
             }
         }
+
+        scanner.close();
     }
 }

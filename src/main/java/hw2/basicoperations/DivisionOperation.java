@@ -13,5 +13,7 @@ public class DivisionOperation {
 
         System.out.printf("Результат деления: %d\n", a / b);
         System.out.printf("Остаток: %d\n", a % b);
+
+        scanner.close();
     }
 }

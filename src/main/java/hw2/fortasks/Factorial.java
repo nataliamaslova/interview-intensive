@@ -22,5 +22,7 @@ public class Factorial {
         }
 
         System.out.println("Факториал: " + result);
+
+        scanner.close();
     }
 }

@@ -29,5 +29,7 @@ public class StarPyramyd {
             // Переход на следующую строку
             System.out.println();
         }
+
+        scanner.close();
     }
 }

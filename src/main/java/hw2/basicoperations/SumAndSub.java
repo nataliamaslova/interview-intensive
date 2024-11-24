@@ -23,5 +23,6 @@ public class SumAndSub {
         System.out.println("Сумма: " + (a + b));
         System.out.println("Разность: " + (a - b));
 
+        scanner.close();
     }
 }

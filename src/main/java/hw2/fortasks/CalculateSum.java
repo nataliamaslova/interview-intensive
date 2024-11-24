@@ -20,6 +20,9 @@ public class CalculateSum {
         for (int i = 1; i <= n; i++) {
             sum += i;
         }
+
         System.out.println("Сумма: " + sum);
+
+        scanner.close();
     }
 }

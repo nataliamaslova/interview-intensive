@@ -24,5 +24,7 @@ public class StarRectangle {
             // Переход на следующую строку
             System.out.println();
         }
+
+        scanner.close();
     }
 }

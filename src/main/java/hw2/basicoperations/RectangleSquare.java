@@ -19,5 +19,7 @@ public class RectangleSquare {
         int b = scanner.nextInt();
 
         System.out.println("Площадь: " + (a * b));
+
+        scanner.close();
     }
 }

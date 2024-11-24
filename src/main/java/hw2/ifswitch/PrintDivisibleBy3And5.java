@@ -23,5 +23,7 @@ public class PrintDivisibleBy3And5 {
         else {
             System.out.println("Результат: Не делится на 3 и 5");
         }
+
+        scanner.close();
     }
 }

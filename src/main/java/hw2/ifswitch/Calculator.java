@@ -35,5 +35,6 @@ public class Calculator {
                 System.out.println("Результат: " + (a / b));
                 break;
         }
+        scanner.close();
     }
 }

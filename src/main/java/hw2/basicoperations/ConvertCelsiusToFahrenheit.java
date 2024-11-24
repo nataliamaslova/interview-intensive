@@ -20,5 +20,7 @@ public class ConvertCelsiusToFahrenheit {
 
         int result =  n * 9/5 + 32;
         System.out.printf("Температура в Фаренгейтах: %d\n", result);
+
+        scanner.close();
     }
 }
