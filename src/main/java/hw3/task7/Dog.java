@@ -3,7 +3,7 @@ package hw3.task7;
 public class Dog extends Animal {
     @Override
     protected void makeSound() {
-        System.out.println("Собака лает");;
+        System.out.println("Собака лает");
     }
 
     public void fetch() {

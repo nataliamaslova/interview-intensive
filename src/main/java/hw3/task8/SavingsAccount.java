@@ -1,7 +1,5 @@
 package hw3.task8;
 
-import hw3.task8.BankAccount;
-
 public class SavingsAccount extends BankAccount {
 
     public SavingsAccount(long accountNumber, double balance) {

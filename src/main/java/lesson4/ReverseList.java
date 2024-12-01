@@ -11,7 +11,7 @@ public class ReverseList {
 
         revertList(node3);
 
-        System.out.println("\nРазвернутый список:");
+        System.out.println("Развернутый список:");
         printList(node);
     }
 
