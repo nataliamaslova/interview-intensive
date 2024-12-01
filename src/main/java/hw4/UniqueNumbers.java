@@ -15,7 +15,7 @@ public class UniqueNumbers {
     }
 
     public static int countUniqueNumbers(int[] array) {
-        Set set = new HashSet();
+        Set<Integer> set = new HashSet<>();
         for(int i : array) {
             set.add(i);
         }
