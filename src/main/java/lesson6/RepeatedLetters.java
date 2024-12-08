@@ -5,6 +5,7 @@ public class RepeatedLetters {
         System.out.println(removeRepeatedLetters("root"));
         System.out.println(removeRepeatedLetters("r"));
         System.out.println(removeRepeatedLetters(""));
+        System.out.println(removeRepeatedLetters(" "));
         System.out.println(removeRepeatedLetters("roott"));
         System.out.println(removeRepeatedLetters("rrroott"));
 
@@ -12,6 +13,7 @@ public class RepeatedLetters {
         System.out.println(removeRepeatedLettersRegEx("root"));
         System.out.println(removeRepeatedLettersRegEx("r"));
         System.out.println(removeRepeatedLettersRegEx(""));
+        System.out.println(removeRepeatedLettersRegEx(" "));
         System.out.println(removeRepeatedLettersRegEx("roott"));
         System.out.println(removeRepeatedLettersRegEx("rrroottt"));
 
@@ -36,6 +38,26 @@ public class RepeatedLetters {
             }
         }
         return sb.toString();
+    }
+
+    public static String removeDuplicatesInLecture(String str) {
+        StringBuilder res = new StringBuilder();
+
+        if (str.isEmpty()) throw new IllegalStateException("Str is empty");
+        char currentSymbol = str.charAt(0);
+
+        if (str.length() == 1) res.append(currentSymbol);
+
+        for (int i = 0; i < str.length(); i++) {
+            if (currentSymbol != str.charAt(i)) {
+                res.append(currentSymbol);
+                currentSymbol = str.charAt(i);
+            }
+            if (i == str.length() - 1) {
+                res.append(str.charAt(i));
+            }
+        }
+        return res.toString();
     }
 
     public static String removeRepeatedLettersRegEx(String input) {
