@@ -30,7 +30,6 @@ public class ParenthesesValidator {
 
     public static boolean isValid (String s) {
         Stack<Character> stack = new Stack<>();
-        char[] charArray = s.toCharArray();
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '[' || c == '{') {
                 stack.push(c); // Кладем открывающую скобку в стек
