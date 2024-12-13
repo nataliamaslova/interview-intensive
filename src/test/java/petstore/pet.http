@@ -1,0 +1,51 @@
+###
+POST https://petstore.swagger.io/v2/pet
+Content-Type: application/json
+
+{
+  "id": 567,
+  "category": {
+    "id": 8,
+    "name": "terrier"
+  },
+  "name": "Jack",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+
+###
+GET https://petstore.swagger.io/v2/pet/567
+
+###
+PUT https://petstore.swagger.io/v2/pet
+Content-Type: application/json
+
+{
+  "id": 567,
+  "category": {
+    "id": 8,
+    "name": "scotch terrier"
+  },
+  "name": "Jack",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+
+###
+DELETE https://petstore.swagger.io/v2/pet/567
