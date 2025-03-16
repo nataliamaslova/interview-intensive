@@ -1,0 +1,17 @@
+DELETE https://crudcrud.com/api/c6e1bbc803204d06a7e40c26833b478f/person/675829ea6297b503e8bd7b99
+Accept: application/json
+
+###
+GET https://crudcrud.com/api/c6e1bbc803204d06a7e40c26833b478f/person/6758b5256297b503e8bd7c82
+Accept: application/json
+
+###
+POST https://crudcrud.com/api/c6e1bbc803204d06a7e40c26833b478f/person
+Content-Type: application/json
+
+{
+  "name": "Kate Semina",
+  "age": 27
+}
+
+###
