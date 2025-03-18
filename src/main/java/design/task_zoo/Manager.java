@@ -15,7 +15,7 @@ public class Manager {
         System.out.println("Animal " + animal + " added to Zoo");
     }
 
-    public void showALl() {
+    public void showAll() {
         for(Animal animal: animals) {
             animal.move();
             animal.sound();

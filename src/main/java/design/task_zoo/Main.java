@@ -50,6 +50,6 @@ public class Main {
         Manager peter = new Manager();
         peter.addAnimal(elephant);
         peter.addAnimal(bird);
-        peter.showALl();
+        peter.showAll();
     }
 }
