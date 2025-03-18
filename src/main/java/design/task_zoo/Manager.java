@@ -12,6 +12,7 @@ public class Manager {
 
     public void addAnimal(Animal animal) {
         animals.add(animal);
+        System.out.println("Animal " + animal + " added to Zoo");
     }
 
     public void showALl() {
